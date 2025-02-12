@@ -12,9 +12,9 @@ import controller.VetorController;
 public class Principal {
 	public static void main(String[] args) {
 		//Criação de vetores de mil, dez mil e cem mil posições
-		int[] vet1 = new int[1000000];
-		int[] vet2 = new int[10000000];
-		int[] vet3 = new int[100000000];
+		int[] vet1 = new int[1000];
+		int[] vet2 = new int[10000];
+		int[] vet3 = new int[100000];
 		
 		//Instancia do controle
 		VetorController controle = new VetorController();
